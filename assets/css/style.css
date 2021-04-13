@@ -1,0 +1,20 @@
+._bg_darkblue{
+    background-color: #2C3E50;
+}
+
+._bg_blue{
+    background-color: #3A546D;
+}
+
+._bg_green{
+    background-color: #1ABC9C;
+}
+
+._bg_white{
+    background-color: white;
+}
+
+[class*="col-"]{
+    height: 100px;
+   
+}
