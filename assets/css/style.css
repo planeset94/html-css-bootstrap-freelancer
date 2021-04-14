@@ -1,3 +1,5 @@
+        /* UTILITY CLASS  */
+
 ._bg_darkblue{
     background-color: #2C3E50;
 }
@@ -14,15 +16,25 @@
     background-color: white;
 }
 
-._pt-5{
-    padding-top:5rem;
+._text-darkblue{
+    color: #2C3E50;
+}
+
+
+
+
+._py-6{
+    padding:6rem 0;
+}
+._py-4{
+    padding:4rem 0;
 }
 /* [class*="col-"]{
     height: 100px;
    
 } */
-/* HEADER 
-    JUMBO */
+/* HEADER - JUMBO */
+
 .jumbo-photo{
     width: 50%;
     height: 15rem;
@@ -32,17 +44,17 @@
     height: 100%;
 }
 
-.jumbo-title h1{
+.star-title h1{
     font-size: 3rem;
     font-weight: bold;
     margin:0;
 }
-.jumbo-flex div{
+.star-flex div{
     width: 15vw;
     height: 0.3rem;
-    background-color: white;
+   
 }
-.jumbo-flex i{
+.star-flex i{
     font-size: 2rem;
 }
 
@@ -60,6 +72,20 @@
     height: 100%;
     border-radius: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* MEDIA QUERY  */
