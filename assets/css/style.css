@@ -26,8 +26,6 @@
     border-bottom: 1px solid #CCCCCC;
 }
 
-
-
 ._pl-5{
     padding-left: 5rem;
 }
@@ -40,6 +38,9 @@
 }
 ._py-4{
     padding:4rem 0;
+}
+._py-3{
+    padding:3rem 0;
 }
 ._px-4{
     padding:0 4rem;
@@ -113,18 +114,6 @@
     height: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* MEDIA QUERY  */
 
 
@@ -140,7 +129,6 @@
     }
    
 }
-
 
 @Media screen and (min-width:768px) and (max-width:991px){
     ._link_dim-md-middle{
@@ -160,10 +148,13 @@
 
 
 @Media screen and (min-width:200px) and (max-width:767px){
-    ._pt-xs-1{
+    ._pt-sm-1{
         padding-top: 1rem;
     }
-    ._p-xs-normal{
+    ._pt-sm-3{
+        padding-top: 3rem;
+    }
+    ._p-sm-normal{
         font-size:1.5rem;
         }
 
