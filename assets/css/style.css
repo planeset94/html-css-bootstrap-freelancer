@@ -20,6 +20,13 @@
     color: #2C3E50;
 }
 
+._input-border{
+    place-content: ;
+    border:0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+
 
 ._pl-5{
     padding-left: 5rem;
@@ -33,6 +40,12 @@
 }
 ._py-4{
     padding:4rem 0;
+}
+._px-4{
+    padding:0 4rem;
+}
+._px-5{
+    padding:0 5rem;
 }
 ._download{
     font-size: 1.2rem;
@@ -90,7 +103,15 @@
 }
 
 
-
+/* 3° SECTION  */
+.form-control::placeholder{
+    color:#2C3E50;
+    font-size: 1.3rem;
+    
+}
+.form-control{
+    height: auto;
+}
 
 
 
@@ -145,4 +166,10 @@
     ._p-xs-normal{
         font-size:1.5rem;
         }
+
+    .form-control::placeholder{
+            color:#2C3E50;
+            font-size: 1.5rem;
+        }
+        
 }
