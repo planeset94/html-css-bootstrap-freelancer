@@ -21,7 +21,12 @@
 }
 
 
-
+._pl-5{
+    padding-left: 5rem;
+}
+._pr-5{
+    padding-right: 5rem;
+}
 
 ._py-6{
     padding:6rem 0;
@@ -29,10 +34,15 @@
 ._py-4{
     padding:4rem 0;
 }
-/* [class*="col-"]{
-    height: 100px;
-   
-} */
+._download{
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+._p-normal{
+    font-size:1.32rem;
+    }
+
+
 /* HEADER - JUMBO */
 
 .jumbo-photo{
@@ -49,11 +59,17 @@
     font-weight: bold;
     margin:0;
 }
-.star-flex div{
+._line-15{
     width: 15vw;
-    height: 0.3rem;
-   
+    height: 0.3rem; 
 }
+
+._line-10{
+    width: 10vw;
+    height: 0.3rem; 
+}
+
+
 .star-flex i{
     font-size: 2rem;
 }
@@ -95,6 +111,13 @@
     ._link_dim-lg-middle{
         font-size: 0.8rem;
     }
+    ._pl-lg-5{
+        padding-left: 5rem;
+    }
+    ._pr-lg-5{
+        padding-right: 5rem;
+    }
+   
 }
 
 
@@ -105,5 +128,21 @@
     ._link_dim-md-normal{
         font-size: 1.5rem;
     }
+    ._pl-md-5{
+        padding-left: 5rem;
+    }
+    ._pr-md-5{
+        padding-right: 5rem;
+    }
+   
+}
 
+
+@Media screen and (min-width:200px) and (max-width:767px){
+    ._pt-xs-1{
+        padding-top: 1rem;
+    }
+    ._p-xs-normal{
+        font-size:1.5rem;
+        }
 }
